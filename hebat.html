@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kamu Hebat 💖</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="fade-page">
+
+<div id="loader">
+    <div class="loader-content">
+        <img src="asset/kelulusan_bubu.png">
+        <h2>💖 Loading Memories... 💖</h2>
+    </div>
+</div>
+
+<div class="love-bg"></div>
+
+<div class="letter-container">
+
+    <div class="letter-left">
+        <div class="letter-badge">💌 Special Message</div>
+
+        <h1>Kamu <span>Hebat 💖</span></h1>
+
+        <p class="typing-text">
+            Aku bangga sama semua perjuanganmu.
+            Tidak mudah melewati semuanya sampai di titik ini,
+            tapi kamu berhasil membuktikan bahwa kamu kuat.
+            Terima kasih sudah bertahan sejauh ini 🌸
+        </p>
+
+        <div class="message-box">
+            <h3>✨ Untuk Kamu ✨</h3>
+            <p>
+                Jangan pernah meragukan dirimu sendiri.
+                Kamu punya banyak hal hebat yang mungkin belum kamu sadari.
+                Hari ini adalah awal dari cerita baru yang lebih indah 💖
+            </p>
+        </div>
+
+        <div class="button-group">
+            <a href="index.html" class="pink-btn">⬅ Kembali</a>
+            <a href="#" class="blue-btn">💖 Proud Of You</a>
+        </div>
+    </div>
+
+    <div class="letter-right">
+        <img src="asset/pinaa.png">
+    </div>
+
+</div>
+
+<script>
+window.onload = () => {
+    const loader = document.getElementById("loader");
+    setTimeout(() => {
+        loader.style.opacity = "0";
+        setTimeout(() => loader.style.display = "none", 1000);
+    }, 1500);
+};
+</script>
+
+<script src="music.js"></script>
+
+</body>
+</html>

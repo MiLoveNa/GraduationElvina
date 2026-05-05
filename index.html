@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduation Pinaa</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="fade-page">
+
+<nav class="navbar">
+    <div class="logo">🎀 Graduation</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="hebat.html">Message</a></li>
+        <li><a href="playlist.html">Playlist</a></li>
+    </ul>
+</nav>
+
+<!-- LOADER -->
+<div id="loader">
+    <div class="loader-content">
+        <img src="asset/kelulusan_bubu.png">
+        <h2>💖 Loading Memories... 💖</h2>
+    </div>
+</div>
+
+<div class="hearts"></div>
+
+<div class="container">
+    <div class="card">
+        <div class="left-content">
+            <h3>Congrats ✨</h3>
+            <div class="badge">🎓 Class of 2026</div>
+
+            <h1>SELAMAT <span>KELULUSAN!</span></h1>
+
+            <p>
+                Perjalananmu luar biasa, penuh perjuangan,
+                doa, dan semangat yang tidak pernah menyerah.
+            </p>
+
+            <p>-Mass Pahmii</p>
+
+            <div class="button-group">
+                <a href="hebat.html" class="pink-btn">Kamu Hebat 💖</a>
+                <a href="semangat.html" class="blue-btn">Banggain Aku Terus ✨</a>
+            </div>
+        </div>
+
+        <div class="right-content">
+            <img src="asset/kelulusan_bubu.png">
+        </div>
+    </div>
+</div>
+
+<!-- SCRIPT -->
+<script>
+window.onload = () => {
+    const loader = document.getElementById("loader");
+
+    setTimeout(() => {
+        loader.style.opacity = "0";
+        setTimeout(() => loader.style.display = "none", 1000);
+    }, 1500);
+};
+</script>
+
+<!-- 🔥 INI WAJIB -->
+<script src="music.js"></script>
+
+</body>
+</html>
